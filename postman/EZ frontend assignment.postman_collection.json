@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "514ba19c-d396-4580-ada4-0c1fa5164877",
+		"name": "EZ frontend assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43134474"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"test\",\n  \"country_code\": \"91\",\n  \"phone_no\": \"1234567890\",\n  \"email\": \"test@gmail.com\",\n  \"service\": [\n    \"Animation Videos\",\n    \"Web Development\"\n  ],\n  \"message\": \"test message\",\n  \"promotion\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.ezworks.ai/form-api",
+					"protocol": "https",
+					"host": [
+						"test",
+						"ezworks",
+						"ai"
+					],
+					"path": [
+						"form-api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
