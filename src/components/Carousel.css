@@ -1,0 +1,181 @@
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    background: linear-gradient(to bottom, #0c223f, #0a1625);
+    color: white;
+    overflow: visible;
+}
+
+.main-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.carousel-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.service-line-buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    color: #d1d5db;
+}
+
+.service-line-buttons button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.service-line-buttons button:hover {
+    color: white;
+}
+
+.custom-swiper {
+    width: 100%;
+    max-width: 900px;
+    overflow: hidden;
+}
+
+
+.carousel-slide {
+    transition: all 0.3s ease;
+    transform: scale(0.85);
+    z-index: 10;
+    opacity: 0.6;
+    background: linear-gradient(to bottom, #4C4B4B, #000000);
+    border-radius: 1rem;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.carousel-slide.active {
+    transform: scale(1.05);
+    z-index: 50;
+    /* Ensure center card appears on top */
+    opacity: 1;
+}
+
+.slide-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-placeholder {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 0.375rem;
+    margin-bottom: 0.5rem;
+}
+
+.icon-label {
+    font-size: 0.75rem;
+    color: #d1d5db;
+    text-align: center;
+}
+
+.custom-pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: white;
+    opacity: 0.5;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+    background: #EA7B2C;
+    /* your orange color for active dot */
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        padding: 2rem 1rem;
+    }
+
+    .main-title {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .carousel-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .carousel-slide {
+        height: 300px;
+        padding: 1rem;
+        transform: scale(0.9);
+    }
+
+    .carousel-slide.active {
+        transform: scale(1);
+    }
+
+    .icons-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .slide-title {
+        font-size: 1rem;
+    }
+
+    .icon-placeholder {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .icon-label {
+        font-size: 0.7rem;
+    }
+
+    .service-line-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}

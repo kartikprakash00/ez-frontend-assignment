@@ -1,0 +1,92 @@
+export const capabilities = [
+    {
+        id: 1,
+        title: "Presentation Design",
+        serviceLine: "Graphics & Video",
+        icons: ["Slide Design", "Formatting", "Templates", "Charts", "Reports", "Visuals"],
+    },
+    {
+        id: 2,
+        title: "Language Services",
+        serviceLine: "Language & Communication",
+        icons: ["Translation", "Voiceover", "Proofreading", "Editing", "Subtitling", "Transcription"],
+    },
+    {
+        id: 3,
+        title: "UI/UX Design",
+        serviceLine: "Graphics & Video",
+        icons: ["Wireframes", "Prototypes", "Mockups", "Design Systems", "Figma", "Mobile UI"],
+    },
+    {
+        id: 4,
+        title: "Administrative Support",
+        serviceLine: "Back-Office & Administrative",
+        icons: ["CRM Updates", "Email Handling", "Data Entry", "Calendar", "Travel Booking", "Research"],
+    },
+    {
+        id: 5,
+        title: "Infographics",
+        serviceLine: "Graphics & Video",
+        icons: ["Data Viz", "Timeline", "Reports", "Static", "Animated", "Icons"],
+    },
+    {
+        id: 6,
+        title: "Translation QA",
+        serviceLine: "Language & Communication",
+        icons: ["Style Check", "Glossary", "Review", "Proof", "Formatting", "Linguist QA"],
+    },
+    {
+        id: 7,
+        title: "eLearning Material Design",
+        serviceLine: "Back-Office & Administrative",
+        icons: ["Handouts", "Guides", "Assessments", "Slides", "PDFs", "Visual Aids"],
+    },
+    {
+        id: 8,
+        title: "HTML Email Templates",
+        serviceLine: "Graphics & Video",
+        icons: ["Responsive", "Layouts", "CTAs", "Campaigns", "Coding", "Tools"],
+    },
+    {
+        id: 9,
+        title: "Voice Localization",
+        serviceLine: "Language & Communication",
+        icons: ["Voiceover", "Syncing", "Accents", "Languages", "Audio Editing", "Dubbing"],
+    },
+    {
+        id: 10,
+        title: "Video Editing",
+        serviceLine: "Graphics & Video",
+        icons: ["Cutting", "Transitions", "Subtitles", "Exporting", "Motion", "Effects"],
+    },
+    {
+        id: 11,
+        title: "Document Formatting",
+        serviceLine: "Back-Office & Administrative",
+        icons: ["Style", "TOC", "Headers", "Footers", "Margins", "Layout"],
+    },
+    {
+        id: 12,
+        title: "Multilingual Email Support",
+        serviceLine: "Language & Communication",
+        icons: ["English", "French", "German", "Spanish", "Chinese", "Arabic"],
+    },
+    {
+        id: 13,
+        title: "Motion Graphics",
+        serviceLine: "Graphics & Video",
+        icons: ["Text Animation", "Logo Reveal", "Icons", "Lower Thirds", "Scene Transitions", "Explainers"],
+    },
+    {
+        id: 14,
+        title: "Knowledge Management",
+        serviceLine: "Back-Office & Administrative",
+        icons: ["File Naming", "Version Control", "Summaries", "Permissions", "Sorting", "Metadata"],
+    },
+    {
+        id: 15,
+        title: "Internal Communications",
+        serviceLine: "Language & Communication",
+        icons: ["Emails", "Newsletters", "Scripts", "Announcements", "Slides", "Style Guide"],
+    },
+];
