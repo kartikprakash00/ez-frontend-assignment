@@ -33,7 +33,63 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"test\",\n  \"country_code\": \"91\",\n  \"phone_no\": \"1234567890\",\n  \"email\": \"test@gmail.com\",\n  \"service\": [\n    \"Animation Videos\",\n    \"Web Development\"\n  ],\n  \"message\": \"test message\",\n  \"promotion\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://test.ezworks.ai/form-api",
+							"protocol": "https",
+							"host": [
+								"test",
+								"ezworks",
+								"ai"
+							],
+							"path": [
+								"form-api"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 26 Apr 2025 17:58:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "43"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"form submitted\",\n    \"success\": true\n}"
+				}
+			]
 		}
 	]
 }
